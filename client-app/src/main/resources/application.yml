@@ -1,0 +1,13 @@
+# Spring Configuration
+spring:
+  application:
+    name: @project.name@
+  main:
+    allow-bean-definition-overriding: true
+
+# Swagger Documentation
+swagger:
+  service:
+    version: "1.0.0"
+    title: ${spring.application.name}
+    description: "Skeleton app swagger"
