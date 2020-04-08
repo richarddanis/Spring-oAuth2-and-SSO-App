@@ -11,3 +11,7 @@ swagger:
     version: "1.0.0"
     title: ${spring.application.name}
     description: "Skeleton app swagger"
+
+client:
+  host: "http://localhost:8090"
+  timeout: 25000
