@@ -29,6 +29,9 @@
         <run.application.environment>dev</run.application.environment>
         <run.spring.profiles.active>${run.application.environment}</run.spring.profiles.active>
 
+        <!-- Retrofit -->
+        <retrofit.version>2.8.1</retrofit.version>
+
         <!-- Swagger -->
         <springfox-swagger2.version>2.9.2</springfox-swagger2.version>
 
@@ -75,6 +78,18 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-log4j2</artifactId>
+        </dependency>
+
+        <!-- Retrofit -->
+        <dependency>
+            <groupId>com.squareup.retrofit2</groupId>
+            <artifactId>retrofit</artifactId>
+            <version>${retrofit.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.squareup.retrofit2</groupId>
+            <artifactId>converter-jackson</artifactId>
+            <version>${retrofit.version}</version>
         </dependency>
 
         <!-- Swagger Dependencies -->
