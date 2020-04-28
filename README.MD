@@ -12,6 +12,15 @@
 * From Command Line `mvn clean package`
 
 ## Running the Application
+
+### Before the run
+Need start Keycloak server in docker
+```
+docker run -e KEYCLOAK_USER=root -e KEYCLOAK_PASSWORD=root -p 8081:8080 --name keycloak jboss/keycloak
+```
+
+### Start the application
+
 Run or debug the app with the `Starter` main class at the root of your Java package hierarchy.
 
 You must add the following VM options in order for logging to work properly:

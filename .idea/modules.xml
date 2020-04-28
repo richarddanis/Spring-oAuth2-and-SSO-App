@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Spring - oAuth2 &amp; SSO.iml" filepath="$PROJECT_DIR$/.idea/Spring - oAuth2 &amp; SSO.iml" />
       <module fileurl="file://$PROJECT_DIR$/server-app/client-app.iml" filepath="$PROJECT_DIR$/server-app/client-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-app/sandbox (2).iml" filepath="$PROJECT_DIR$/server-app/sandbox (2).iml" />
       <module fileurl="file://$PROJECT_DIR$/client-app/server-app.iml" filepath="$PROJECT_DIR$/client-app/server-app.iml" />
     </modules>
   </component>
