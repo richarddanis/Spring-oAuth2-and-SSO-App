@@ -4,6 +4,11 @@ spring:
     name: @project.name@
   main:
     allow-bean-definition-overriding: true
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri:  "http://localhost:8081/auth/realms/SpringBootKeycloak/protocol/openid-connect/certs"
 
 # Swagger Documentation
 swagger:
